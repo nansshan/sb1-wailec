@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Generator - Create Your Personalized Signature</title>
+    <meta name="description" content="Use our online signature generator to easily create unique, personalized signatures. Multiple font choices, simple, fast, and free!">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allison&family=Architects+Daughter&family=Arizonia&family=Bad+Script&family=Calligraffitti&family=Caveat&family=Cedarville+Cursive&family=Charm&family=Cookie&family=Courgette&family=Covered+By+Your+Grace&family=Dancing+Script&family=Delius&family=Gloria+Hallelujah&family=Great+Vibes&family=Handlee&family=Herr+Von+Muellerhoff&family=Homemade+Apple&family=Indie+Flower&family=Italianno&family=Julee&family=Kalam&family=Kaushan+Script&family=Klee+One&family=Kristi&family=Macondo&family=Marck+Script&family=Merienda&family=Monsieur+La+Doulaise&family=Mr+Dafoe&family=Mrs+Saint+Delafield&family=Ms+Madi&family=Nanum+Brush+Script&family=Nanum+Pen+Script&family=Niconne&family=Norican&family=Pacifico&family=Parisienne&family=Permanent+Marker&family=Petit+Formal+Script&family=Pinyon+Script&family=Playball&family=Qwigley&family=Rancho&family=Reenie+Beanie&family=Rochester&family=Rock+Salt&family=Sacramento&family=Satisfy&family=Seaweed+Script&family=Shadows+Into+Light+Two&family=Sofia&family=Sriracha&family=Tangerine&family=Yellowtail&family=Yesteryear&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Signature Generator Logo" class="logo-img">
+                <span class="logo-text">Signature Generator</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <header>
+                <h1>Signature Generator</h1>
+            </header>
+            <main>
+                <section id="generator">
+                    <input type="text" id="nameInput" placeholder="Enter your name" aria-label="Enter your name">
+                    <button id="generateBtn">Generate Signatures</button>
+                </section>
+                <section id="result">
+                    <div id="signatureGrid"></div>
+                    <button id="downloadAllBtn" style="display:none;">Download All Signatures</button>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Signature Generator. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
